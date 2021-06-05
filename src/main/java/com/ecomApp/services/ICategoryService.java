@@ -1,2 +1,4 @@
-package com.ecomApp.services;public class ICategoryService {
+package com.ecomApp.services;
+
+public interface ICategoryService {
 }

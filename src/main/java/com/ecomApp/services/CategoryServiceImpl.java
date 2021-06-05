@@ -1,2 +1,5 @@
-package com.ecomApp.services;public class CategoryServiceImpl {
+package com.ecomApp.services;
+
+
+public class CategoryServiceImpl implements ICategoryService {
 }

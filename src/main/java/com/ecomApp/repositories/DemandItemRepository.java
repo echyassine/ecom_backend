@@ -1,9 +1,10 @@
 package com.ecomApp.repositories;
 
-import com.ecomApp.entities.Product;
+
+import com.ecomApp.entities.DemandItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product,Long> {
+public interface DemandItemRepository extends JpaRepository<DemandItem,Long> {
 }

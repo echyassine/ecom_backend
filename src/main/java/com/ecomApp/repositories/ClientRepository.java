@@ -1,2 +1,9 @@
-package com.ecomApp.repositories;public interface ClientRepository {
+package com.ecomApp.repositories;
+
+import com.ecomApp.entities.Client;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClientRepository extends JpaRepository<Client,Long> {
 }

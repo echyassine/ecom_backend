@@ -1,2 +1,4 @@
-package com.ecomApp.services;public interface IClientService {
+package com.ecomApp.services;
+
+public interface IClientService {
 }
